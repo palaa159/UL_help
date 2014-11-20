@@ -33,7 +33,7 @@ As a POC, its scope and functionality has been intentionally constrained. These 
 
 These constraints will all be lifted in the next phase of development. The Beta version of CITYSCAPE will be category-, feature-, and data-complete and scalable to other cities.
 
-The POC integrates — for the first time ever at Unilever — data from over a dozen disparate sources [link to full list at bottom of page] to establish a unified and multi-faceted view of our business in London. 
+The POC integrates — for the first time ever at Unilever — data from over a dozen disparate [sources](#) to establish a unified and multi-faceted view of our business in London. 
 
 The project is governed by a cross-functional Steering Committee spanning all of these business areas together with ETS.
 
@@ -64,7 +64,7 @@ CITYSCAPE’s map is your entry point into the system. The map allows you to cre
 
 ##### Creating Layers
 
-To create a layer select the +Add Layer [ADD ICON] at the top left of the CITYSCAPE interface; this will activate the Layer Selection Menu where you can select the relevant data, filters, and contexts for creating a new layer.
+To create a layer select the icon ![image](assets/Help_AddLayerIcon.png =x30) at the top left of the CITYSCAPE interface; this will activate the Layer Selection Menu where you can select the relevant data, filters, and contexts for creating a new layer.
 
 Selecting a data set
 
@@ -111,67 +111,52 @@ Once you have selected a data set, a side panel with applicable Attributes, Unit
 
 ##### Geography Selection
 
-Once you have made all relevant selections from the side panel, select the Geographic Unit [ADD ICON]  for the layer. The toggle can be used to select either Boroughs or Wards. Note that some data sets can only be displayed as Boroughs. If you have selected a data set that can only be displayed as a Borough, the Ward option will be disabled.
+Once you have made all relevant selections from the side panel, select the Geographic Unit ![image](assets/Help_GeographuyIcon.png =x30) for the layer. The toggle can be used to select either Boroughs or Wards. Note that some data sets can only be displayed as Boroughs. If you have selected a data set that can only be displayed as a Borough, the Ward option will be disabled.
 
 ##### Layer Types
 
 Once the data set, characteristics, and geography for you layer have been selected, you can choose the Layer Type you would like to produce. Types include:
 <!--make table here-->
-* **Choropleth** [Logo: CHOROPLETH]
 
-	* Aggregates selected values within a geographic unit and shades the unit based on the value of the selected variable
-	
-    * Example: Population by Ward
 
-* **Bubbles** [LOGO: BUBBLES]
-
-	* Aggregates selected values within a geographic unit to create proportionally sized bubbles  based on the values of the selected variable
-
-    * Example: Total sales of Tesco stores by Borough
-
-* **Points** [LOGO: POINTS]
-
-    * Maps the location of selected entities – such as stores. 
-
-    * Example: Location of convenience stores
-
-* **Polygons** [LOGO: POLYGONS]
-
-    * A layer mapping geographic attributes about the city
-
-    * Example: Underground routes and station locations
+Layer Type | Detail | Example
+------------ | ------------- | ------------
+**Choropleth**  | – Aggregates selected values within a geographic unit and shades the unit based on the value of the selected variable <br><br> – Example: Population by Ward | ![image](assets/Help_Choroplethexample.png =200x)
+**Bubbles** | – Aggregates selected values within a geographic unit to create proportionally sized bubbles  based on the values of the selected variable <br><br> – Example: Total sales of Tesco stores by Borough | ![image](assets/Help_Bubblesexample.png =200x)
+**Points** | – Maps the location of selected entities – such as stores. <br><br> – Example: Location of convenience stores | ![image](assets/Help_Pointsexample.png =200x)
+**Polygons** | – A layer mapping geographic attributes about the city <br><br> – Example: Underground routes and station locations | ![image](assets/HELP_Polyexample.png =200x)
 
 Note that some data sets can only be produced as specific layer types. If one of these data sets is selected, the unusable layer types will be disabled.
 
 ##### Adding a Layer to the Map
 
-Once you have completed all your selections, click Add Layer to Map [INSERT ICON] to visualize the layer.
+Once you have completed all your selections, click Add Layer to Map ![image](assets/Help_addlayertomap.png) to visualize the layer.
 
 ##### Manipulating Layers
 
-To manipulate any layer begin by selecting the Layers Icon [INSERT ICON] at the top right of the Map Interface. Once the cursor is over the icon, a menu will expand that shows all of the layers that are currently available. 
+To manipulate any layer begin by selecting the Layers Icon ![image](assets/Help_layersicon.png) at the top right of the Map Interface. Once the cursor is over the icon, a menu will expand that shows all of the layers that are currently available. 
 
 * **Activating/Hiding a Layer**
 
-	* Click on the check box [ADD ICON] on the left side of the menu to activate or hide a layer
+	* Click on the check box ![image](assets/help_checkbox.png) on the left side of the menu to activate or hide a layer
 
 * **Changing Layer Ordering**
 
-    * Click the  [ADD ICON] icon on the far right of the menu to move the desired to the top of the map
+    * Click the ![image](assets/help_reorder.png) icon on the far right of the menu to move the desired to the top of the map
 
 * **Deleting a Layer** 
 
-    * Click the x [ADD ICON] on the far right of the menu to delete a layer
+    * Click the ![image](assets/help_delete.png) on the far right of the menu to delete a layer
 
 ##### Zoom/Pan
 
-* Zoom by either using +/- [ADD ICON] at the top left corner or the map interface, or by using the scroll wheel on your mouse
+* Zoom by either using ![image](assets/Help_zoom_pan.png) at the top left corner or the map interface, or by using the scroll wheel on your mouse
 
 * Pan across the map by clicking and dragging the map to center it on your desired view
 
 ##### Resetting the Map
 
-* Reset the map by selecting the Reset Map [ADD ICON] button at the top right corner of the CITYSCAPE interface
+* Reset the map by selecting the Reset Map ![image](assets/help_resetmap.png) button at the top right corner of the CITYSCAPE interface
 
 ### Analytics
 
@@ -225,7 +210,7 @@ Each Analytics Type provides the option of comparing selected data to the same v
 
 ##### Visualizing Analysis
 
-Once all selections are complete, click Visualize [ADD ICON] to create the graph.
+Once all selections are complete, click Visualize ![image](assets/help_visualiza.png) to create the graph.
 
 ## Getting Started with the POC
 ===
@@ -268,19 +253,19 @@ Target Users: Brand Managers, Customer Development
 
 CITYSCAPE can help multiple types of users – including CD, BB, BD combine sales, demographic and market data to identify to identify target consumers for specific brands, and find the, best channels and stores and times for reaching a specific population.
 
-Starting with the Analytics Modules, select Correlation. From the Data Selection Panel select Student Population from the data drop down menu for the Y-Axis and Magnum Sales at Convenience stores for the X-Axis. Visualize this selection. (note, we are making the assumption that you have spent some time in CITYSCAPE testing correlations to find this one). [SCREENSHOTS OF BUILD PROCESS]
+Starting with the Analytics Modules, select Correlation. From the Data Selection Panel select Student Population from the data drop down menu for the Y-Axis and Magnum Sales at Convenience stores for the X-Axis. Visualize this selection. (note, we are making the assumption that you have spent some time in CITYSCAPE testing correlations to find this one).
+
+![image](assets/help_correlation.png =700x)
 
 You can see that there is a strong correlation between Student Populations and the Sales of Magnum products at Convenience Stores. 
 
-Next, you can switch to the Map Interface to build the same selections as Layers on the map. 
+Next, you can switch to the Map Interface to build the same selections as Layers on the map.  First, you can create a layer showing the distribution of the Student Population across Boroughs as a choropleth.
 
-First, you can create a layer showing the distribution of the Student Population across Boroughs as a choropleth.
-
-[Screenshots of first layer build]
+![image](assets/help_correlation.png =700x)
 
 Next, create a bubble layer showing the value of Magnum Sales at Convenience Stores by Borough.
 
-[Screenshot of second layer build]
+![image](assets/help_correlation.png =700x)
 
 From utilizing the correlation module and creating this visualization, you have confirmed the existence of a relationship between two variables, and identified specific geographies whose performance – for a specific product – could likely improve.
 
@@ -310,11 +295,12 @@ Layering the distribution of a target population – tourists – with filtered 
 
 CITYSCAPE can utilize open demographic data to help a USLP manager maximize the impact of USLP through analyzing how key health trends impact different areas of the city and developing/launching geographically campaigns.
 
-[SCREENSHOT of DATA SELECTION MENU IN CONTEXT OF PLATFORM] 
+![image](assets/help_analyticsdataselection.png =700x)
+
 
 Starting in the Map Interface select the People category from the menu. From this category, select a range of demographic data sets from categories including language/ethnicity, economic, and wellness.
 
-Since we are focused on health, select the layer for **"% of 6-year-old children that are obese"**. [SCREENSHOT OF SELECTION of DATA SET] Once the data set is selected, click on the choropleth [ADD LOGO] layer type option and click visualize to send the layer to the map.
+Since we are focused on health, select the layer for **"% of 6-year-old children that are obese"**. [SCREENSHOT OF SELECTION of DATA SET] Once the data set is selected, click on the choropleth ![image](assets/Help_ChoroplethIcon.png) layer type option and click visualize to send the layer to the map.
 
 CITYSCAPE also contains datasets about locations and infrastructure of the city. To create another layer, return to the add layer menu and select the **"City"** category. [SCREENSHOT SHOWING SELECTION]
 
