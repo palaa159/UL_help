@@ -8,16 +8,16 @@
 -->
 # Help
 
-### About CITYSCAPE POC
+## About CITYSCAPE POC
 ===
 
-##### Business Case
+#### Business Case
 
 Unilever stands to capture €2 billion in new turnover globally by addressing its fair share of trade in cities. Data-driven decision making is going to help Unilever get there. 
 
 CITYSCAPE is Unilever’s purpose-built Big Data integration, analytics, and visualization platform for Perfect Cities. It is designed to help BB, BD, CD, CMI, and Media make smart, granular, in-time decisions about where to play and how to win at the city level. 
 
-##### Where We Are
+#### Where We Are
 
 You are looking at a Proof of Concept (POC) of CITYSCAPE. Designed and developed over four months, it demonstrates the potential of a productionised version of the system and serves as a tool to gather feedback from various stakeholders to guide the next phase of development. 
 
@@ -37,7 +37,7 @@ The POC integrates — for the first time ever at Unilever — data from over a 
 
 The project is governed by a cross-functional Steering Committee spanning all of these business areas together with ETS.
 
-### Features in the POC
+## Features in the POC
 ===
 <!-- 
 **Overall Interface**
@@ -49,7 +49,7 @@ CITYSCAPE’s interface includes two main components:
 2. Analytics Modules
 -->
 
-#### Map Interface
+### Map Interface
 <!--
 
 - Overview
@@ -173,7 +173,7 @@ To manipulate any layer begin by selecting the Layers Icon [INSERT ICON] at the 
 
 * Reset the map by selecting the Reset Map [ADD ICON] button at the top right corner of the CITYSCAPE interface
 
-#### Analytics
+### Analytics
 
 ##### Overview
 
@@ -227,7 +227,7 @@ Each Analytics Type provides the option of comparing selected data to the same v
 
 Once all selections are complete, click Visualize [ADD ICON] to create the graph.
 
-### Getting Started with the POC
+## Getting Started with the POC
 ===
 
 CITYSCAPE’s POC is designed to demonstrate how the future production version of platform will guide granular, in-time decision making around Unilever’s strategic priorities including:
@@ -258,7 +258,7 @@ CITYSCAPE’s POC is designed to demonstrate how the future production version o
 
 The following user journeys demonstrate how the functionality of CITYSCAPE will help Unilever make measurable progress on these defined strategic priorities.
 
-#### Geographic Lenses	
+### Geographic Lenses	
 
 Strategic Priorities Supported Right Cities, Right Brands, Right Channels
 
@@ -284,11 +284,10 @@ Next, create a bubble layer showing the value of Magnum Sales at Convenience Sto
 
 From utilizing the correlation module and creating this visualization, you have confirmed the existence of a relationship between two variables, and identified specific geographies whose performance – for a specific product – could likely improve.
 
-#### London Value Exchange
+### London Value Exchange
 
-Strategic Priorities Supported: Right People, Right Brand
-
-Target Users: Brand Managers
+- Strategic Priorities Supported: Right People, Right Brand
+- Target Users: Brand Managers
 
 ##### Overview
 
@@ -302,11 +301,10 @@ Finally create point layers to plot the locations of both convenience stores of 
 
 Layering the distribution of a target population – tourists – with filtered sales data and the location of all relevant points of sale, a Brand Manager can start to analyze portions of London where there is a high density of a target demographic, but lagging sales performance. From these areas, the Brand Manager could start to identify the specific stores, or locations of attractions Unilever could partner with to increase sales performance.
 
-#### Healthy Living
+### Healthy Living
 
-Strategic Priorities Supported: USLP
-
-Target Users: USLP Managers
+- Strategic Priorities Supported: USLP
+- Target Users: USLP Managers
 
 ##### Overview
 
@@ -326,7 +324,7 @@ From this category select Schools; confirm that this selection will be visualize
 
 Now you can see the incidence of childhood obesity by Borough with the locations of all primary schools within the city. From a USLP perspective, a USLP Manager could target specific schools in a Borough with a high-obesity rate to launch a program about nutrition.
 
-### Data Sets Utilized
+## Data Sets Utilized
 ===
 
 * Proprietary
